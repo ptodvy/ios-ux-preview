@@ -14,6 +14,7 @@
 		1590F5FA2B847D1E00C24CCE /* ios_ux_previewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F5F92B847D1E00C24CCE /* ios_ux_previewTests.swift */; };
 		1590F6042B847D1E00C24CCE /* ios_ux_previewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F6032B847D1E00C24CCE /* ios_ux_previewUITests.swift */; };
 		1590F6062B847D1E00C24CCE /* ios_ux_previewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F6052B847D1E00C24CCE /* ios_ux_previewUITestsLaunchTests.swift */; };
+		1590F6152B84811000C24CCE /* ButtonConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F6142B84811000C24CCE /* ButtonConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1590F5FF2B847D1E00C24CCE /* ios-ux-previewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ux-previewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1590F6032B847D1E00C24CCE /* ios_ux_previewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ux_previewUITests.swift; sourceTree = "<group>"; };
 		1590F6052B847D1E00C24CCE /* ios_ux_previewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ux_previewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1590F6142B84811000C24CCE /* ButtonConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1590F5E72B847D1D00C24CCE /* ios-ux-preview */ = {
 			isa = PBXGroup;
 			children = (
+				1590F6132B8480EA00C24CCE /* button */,
 				1590F5E82B847D1D00C24CCE /* ios_ux_previewApp.swift */,
 				1590F5EA2B847D1D00C24CCE /* ContentView.swift */,
 				1590F5EC2B847D1E00C24CCE /* Assets.xcassets */,
@@ -125,6 +128,22 @@
 				1590F6052B847D1E00C24CCE /* ios_ux_previewUITestsLaunchTests.swift */,
 			);
 			path = "ios-ux-previewUITests";
+			sourceTree = "<group>";
+		};
+		1590F6122B8480E200C24CCE /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				1590F6142B84811000C24CCE /* ButtonConfiguration.swift */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		1590F6132B8480EA00C24CCE /* button */ = {
+			isa = PBXGroup;
+			children = (
+				1590F6122B8480E200C24CCE /* uikit */,
+			);
+			path = button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1590F5EB2B847D1D00C24CCE /* ContentView.swift in Sources */,
+				1590F6152B84811000C24CCE /* ButtonConfiguration.swift in Sources */,
 				1590F5E92B847D1D00C24CCE /* ios_ux_previewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
